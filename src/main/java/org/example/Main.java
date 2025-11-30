@@ -19,7 +19,7 @@ public class Main {
         ConsultaBD.insertarProductosFavoritos();
         ConsultaBD.mostrarProductosFavoritos();
         ConsultaBD.insertarFavoritosMayor1000();
-
+        //cerrar base de daatos
         DBconnection.closeConnection();
 
     }
